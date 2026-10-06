@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Durante Odontologia Especializada · Centro de Gaspar/SC</title>
+<meta name="description" content="Clínica odontológica no Centro de Gaspar/SC: lentes de contato, implantes, alinhadores, odontopediatria e mais. Agende sua avaliação pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Albert+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--off:#F6F3EF;--greige:#E6DED5;--greige2:#A79C92;--grafite:#3A3A3C;--bronze:#B8895A;--salvia:#7F9483}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Albert Sans',system-ui,sans-serif;font-weight:400;color:var(--grafite);background:var(--off);line-height:1.7}
+img{display:block;max-width:100%}
+a{color:inherit}
+.demo{background:var(--grafite);color:var(--off);text-align:center;font-size:.78rem;padding:.45rem 1rem}
+.mc{font-family:'Marcellus',serif;font-weight:400}
+.wrap{max-width:1140px;margin:0 auto;padding:0 1.5rem}
+.lbl{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;color:var(--bronze);font-weight:500}
+/* header */
+header{padding:1.5rem 0;border-bottom:1px solid #e2d9cf}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.1}
+.brand b{font-family:'Marcellus';font-weight:400;font-size:1.6rem;letter-spacing:.32em}
+.brand small{font-size:.66rem;letter-spacing:.38em;text-transform:uppercase;color:var(--bronze);margin-top:.25rem}
+header nav{display:flex;gap:2rem;font-size:.9rem}
+header nav a{text-decoration:none;color:#5d5a57}
+header nav a:hover{color:var(--bronze)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;text-decoration:none;font-weight:500;font-size:.92rem;padding:.95rem 1.6rem;border-radius:999px;transition:.2s;letter-spacing:.02em}
+.btn.br{background:var(--bronze);color:#fff}
+.btn.br:hover{background:#a47549}
+.btn.gr{background:var(--grafite);color:#fff}
+.btn.ol{border:1px solid var(--grafite)}
+.btn.ol:hover{background:var(--grafite);color:#fff}
+.btn svg{width:18px;height:18px;fill:currentColor}
+/* hero */
+.hero{padding:4.5rem 0 5rem}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:4.5rem;align-items:center}
+.hero h1{font-family:'Marcellus';font-weight:400;font-size:clamp(2.3rem,4.6vw,3.9rem);line-height:1.12;margin:1.1rem 0 1.4rem;letter-spacing:-.005em}
+.hero h1 em{font-style:normal;color:var(--bronze)}
+.hero p{font-size:1.08rem;color:#5d5a57;max-width:44ch;margin-bottom:2rem}
+.hero .btns{display:flex;gap:.8rem;flex-wrap:wrap}
+.facts{display:flex;gap:2.5rem;margin-top:2.8rem;padding-top:1.6rem;border-top:1px solid #e2d9cf;flex-wrap:wrap}
+.facts div b{font-family:'Marcellus';font-weight:400;font-size:1.9rem;display:block;line-height:1}
+.facts div span{font-size:.82rem;color:#7a756f}
+.arch{border-radius:999px 999px 18px 18px;overflow:hidden;position:relative;background:var(--greige)}
+.arch img{width:100%;height:100%;object-fit:cover}
+.hero .arch{height:600px}
+.hero .arch-wrap{position:relative}
+.hero .arch-wrap::before{content:"";position:absolute;inset:-18px 18px 18px -18px;border:1px solid var(--bronze);border-radius:999px 999px 18px 18px}
+.hero .arch-wrap .arch{position:relative}
+/* tratamentos */
+section{padding:6rem 0}
+.trat{background:#fff}
+.trat .grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:4.5rem;align-items:start}
+.trat h2,.h2{font-family:'Marcellus';font-weight:400;font-size:clamp(2rem,3.6vw,3rem);line-height:1.15;margin:.8rem 0 1.2rem}
+.sticky{position:sticky;top:2rem}
+.sticky p{color:#5d5a57}
+.list details{border-top:1px solid #e2d9cf}
+.list details:last-child{border-bottom:1px solid #e2d9cf}
+.list summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:3.2rem 1fr auto;align-items:center;padding:1.25rem 0;gap:.5rem}
+.list summary::-webkit-details-marker{display:none}
+.list summary .n{font-family:'Marcellus';color:var(--bronze);font-size:1rem;letter-spacing:.1em}
+.list summary .t{font-family:'Marcellus';font-size:1.45rem;line-height:1.2}
+.list summary .pl{width:30px;height:30px;border:1px solid var(--greige2);border-radius:50%;display:grid;place-items:center;font-size:1.1rem;color:var(--bronze);transition:transform .2s}
+.list details[open] .pl{transform:rotate(45deg)}
+.list .ans{padding:0 0 1.4rem 3.7rem;color:#5d5a57;max-width:60ch}
+.list .ans a{display:inline-block;margin-top:.6rem;color:var(--bronze);font-weight:500;text-decoration:none;border-bottom:1px solid var(--bronze)}
+/* pequenos */
+.peq{background:var(--greige)}
+.peq .grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.peq blockquote{font-family:'Marcellus';font-size:clamp(1.4rem,2.4vw,1.85rem);line-height:1.4}
+.peq cite{display:block;font-style:normal;font-size:.85rem;margin-top:1.2rem;color:#5d5a57}
+.peq ul{list-style:none;margin:1.4rem 0 2rem}
+.peq li{padding:.55rem 0;border-bottom:1px solid rgba(58,58,60,.15);display:flex;gap:.8rem}
+.peq li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--bronze);margin-top:.7rem;flex:none}
+/* equipe */
+.team{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem}
+.member{background:#fff;border:1px solid #e2d9cf;border-radius:18px;padding:2rem 1.8rem;position:relative}
+.member .ini{width:64px;height:64px;border-radius:50%;background:var(--off);border:1px solid var(--bronze);display:grid;place-items:center;font-family:'Marcellus';font-size:1.5rem;color:var(--bronze);margin-bottom:1.2rem}
+.member h3{font-family:'Marcellus';font-weight:400;font-size:1.4rem;line-height:1.2}
+.member p{font-size:.92rem;color:#5d5a57;margin-top:.4rem}
+.member .cro{display:inline-block;margin-top:1rem;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;background:#FBF1E4;border:1px dashed var(--bronze);color:#8a6236;padding:.3rem .7rem;border-radius:6px}
+/* clínica */
+.clin{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;align-items:end}
+.clin figure .arch{height:440px}
+.clin figure:nth-child(2) .arch{height:520px}
+.clin figcaption{text-align:center;margin-top:.9rem;font-size:.85rem;color:#7a756f}
+/* avaliações */
+.avs{background:var(--grafite);color:var(--off)}
+.avs .head{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap;margin-bottom:3rem}
+.avs .score b{font-family:'Marcellus';font-weight:400;font-size:4.4rem;line-height:1;color:var(--bronze)}
+.av-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem}
+.av-grid figure{border-top:1px solid var(--bronze);padding-top:1.4rem}
+.av-grid blockquote{font-family:'Marcellus';font-size:1.18rem;line-height:1.5}
+.av-grid figcaption{font-size:.82rem;margin-top:1rem;color:#c5bdb4}
+.resp{margin-top:2.5rem;font-size:.9rem;color:#c5bdb4}
+/* primeira consulta */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;counter-reset:s}
+.step{counter-increment:s;padding:2rem;border-radius:18px;background:#fff;border:1px solid #e2d9cf}
+.step::before{content:"0" counter(s);font-family:'Marcellus';font-size:2.4rem;color:var(--bronze);display:block;line-height:1;margin-bottom:1rem}
+.step h3{font-family:'Marcellus';font-weight:400;font-size:1.3rem}
+.step p{font-size:.92rem;color:#5d5a57;margin-top:.4rem}
+.sug{font-size:.8rem;color:#8a857f;margin-top:1.2rem;font-style:italic}
+/* contato */
+.ct .grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.ct dl{display:grid;grid-template-columns:auto 1fr;gap:.9rem 2rem;margin:1.6rem 0 2.2rem}
+.ct dt{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--bronze);padding-top:.25rem}
+.ct .arch{height:520px}
+footer{border-top:1px solid #e2d9cf;padding:2rem 0;font-size:.8rem;color:#7a756f}
+footer .wrap{display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.float{position:fixed;right:20px;bottom:20px;z-index:40;background:var(--grafite);color:#fff;text-decoration:none;border-radius:999px;padding:.85rem 1.2rem;display:none;align-items:center;gap:.5rem;font-size:.85rem;box-shadow:0 10px 25px rgba(0,0,0,.2)}
+.float svg{width:18px;height:18px;fill:var(--bronze)}
+@media (max-width:900px){
+ header nav{display:none}
+ header .btn{padding:.7rem 1rem;font-size:.82rem}
+ .hero .grid,.trat .grid,.peq .grid,.ct .grid{grid-template-columns:1fr;gap:3rem}
+ .hero{padding:3rem 0}
+ .hero .arch{height:440px}
+ .hero .arch-wrap{margin:0 18px 0 18px}
+ .sticky{position:static}
+ .team,.av-grid,.steps{grid-template-columns:1fr}
+ .clin{grid-template-columns:1fr 1fr}
+ .clin figure:nth-child(2){grid-column:span 2;order:-1}
+ .clin figure .arch,.clin figure:nth-child(2) .arch{height:300px}
+ .list .ans{padding-left:0}
+ .list summary .t{font-size:1.2rem}
+ section{padding:4rem 0}
+ .ct .arch{height:380px}
+ .float{display:inline-flex}
+}
+/* ===== Movimento (WolfStudio v3) — só roda com JS e sem "reduzir movimento" ===== */
+:root{--e:cubic-bezier(.2,.7,.2,1)}
+.anim :is(.trat .sticky,.list details,.peq .grid>*,.wrap>.lbl,.wrap>.h2,.member,.clin figure,.avs .head,.av-grid figure,.resp,.step,.sug,.ct .grid>*){transition:opacity .7s var(--e) var(--d,0ms),translate .8s var(--e) var(--d,0ms),scale .8s var(--e) var(--d,0ms),rotate .8s var(--e) var(--d,0ms),transform .35s var(--e),box-shadow .35s,border-color .25s,background-color .25s}
+.anim :is(.trat .sticky,.list details,.peq .grid>*,.wrap>.lbl,.wrap>.h2,.member,.clin figure,.avs .head,.av-grid figure,.resp,.step,.sug,.ct .grid>*):not(.in){opacity:0;translate:var(--tx,0px) var(--ty,22px);scale:var(--sc,1)}
+@keyframes sobe{from{opacity:0;translate:0 18px}}
+@keyframes gira{to{rotate:360deg}}
+@media print{.anim *{opacity:1!important;translate:none!important;scale:none!important;clip-path:none!important}}
+[id]{scroll-margin-top:16px}
+/* botões e menu */
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 20px -14px rgba(58,58,60,.7)}
+.btn:active{transform:translateY(0) scale(.98)}
+header nav a{position:relative;transition:color .2s}
+header nav a::after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:1px;background:var(--bronze);scale:0 1;transform-origin:0 50%;transition:scale .35s var(--e)}
+header nav a:hover::after,header nav a.on::after{scale:1 1}
+header nav a.on{color:var(--bronze)}
+/* hero: texto sobe, o arco surge e a moldura bronze encaixa depois */
+body>header{animation:desce .7s var(--e) both}
+@keyframes desce{from{opacity:0;translate:0 -10px}}
+.hero .grid>div:first-child>*{animation:sobe .8s var(--e) both}
+.hero .grid>div:first-child>:nth-child(2){animation-delay:.1s}.hero .grid>div:first-child>:nth-child(3){animation-delay:.2s}.hero .grid>div:first-child>:nth-child(4){animation-delay:.3s}.hero .grid>div:first-child>:nth-child(5){animation-delay:.42s}
+.hero .arch{animation:arco 1.1s var(--e) .15s both}
+@keyframes arco{from{opacity:0;translate:0 30px}}
+.hero .arch img{animation:kb 1.8s var(--e) .15s both}
+@keyframes kb{from{scale:1.12}}
+.hero .arch-wrap::before{animation:moldura 1s var(--e) .9s both}
+@keyframes moldura{from{opacity:0;translate:14px 14px}}
+.facts b{font-variant-numeric:tabular-nums}
+/* tratamentos: resposta entra ao abrir */
+.list summary .t{transition:color .2s}
+.list summary:hover .t{color:var(--bronze)}
+.list summary .pl{transition:transform .25s var(--e),background-color .2s,color .2s,border-color .2s}
+.list summary:hover .pl{background:var(--bronze);color:#fff;border-color:var(--bronze)}
+.list details[open] .ans{animation:sobe .45s var(--e)}
+.anim .list details{--ty:14px}
+/* equipe, clínica, passos */
+.member:hover,.step:hover{transform:translateY(-5px);box-shadow:0 18px 28px -22px rgba(58,58,60,.6);border-color:var(--bronze)}
+.member .ini{transition:background-color .3s,color .3s}
+.member:hover .ini{background:var(--bronze);color:#fff}
+.clin .arch img,.ct .arch img{transition:scale 1.4s var(--e)}
+.clin figure:hover .arch img,.ct .arch:hover img{scale:1.05}
+.anim .clin figure:nth-child(2){--ty:44px}
+.avs .score b{font-variant-numeric:tabular-nums}
+/* botão flutuante do celular */
+.float{animation:surge-float .5s cubic-bezier(.3,1.5,.5,1) 1.2s both}
+@keyframes surge-float{from{opacity:0;scale:.6}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+<script>(function(d){if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches)d.classList.add('anim')})(document.documentElement)</script>
+</head>
+<body>
+<div class="demo" role="note">Demonstração WolfStudio — não é o site oficial.</div>
+
+<header><div class="wrap">
+ <a class="brand" href="#"><b>DURANTE</b><small>odontologia especializada</small></a>
+ <nav><a href="#tratamentos">Tratamentos</a><a href="#pequenos">Para os pequenos</a><a href="#equipe">Equipe</a><a href="#contato">Contato</a></nav>
+ <a class="btn gr" href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Durante%20Odontologia." target="_blank" rel="noopener">Agendar</a>
+</div></header>
+
+<main>
+<section class="hero">
+ <div class="wrap grid">
+  <div>
+   <span class="lbl">Centro de Gaspar · SC</span>
+   <h1>Cuidado acolhedor para a família toda, <em>dos pequenos à reabilitação.</em></h1>
+   <p>Lentes de contato dental, implantes, alinhadores, odontopediatria e tratamentos do dia a dia, num ambiente pensado para você se sentir em casa.</p>
+   <div class="btns">
+    <a class="btn br" href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Durante%20Odontologia." target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>Agendar avaliação</a>
+    <a class="btn ol" href="#tratamentos">Ver tratamentos</a>
+   </div>
+   <div class="facts">
+    <div><b>4,9 ★</b><span>158 avaliações no Google</span></div>
+    <div><b>9</b><span>áreas de tratamento</span></div>
+    <div><b>Seg–Sex</b><span>a partir das 9h</span></div>
+   </div>
+  </div>
+  <div class="arch-wrap"><div class="arch"><img src="assets/recepcao-logo.jpg" alt="Recepção da Durante Odontologia com o logo na parede e poltronas brancas"></div></div>
+ </div>
+</section>
+
+<section id="tratamentos" class="trat">
+ <div class="wrap grid">
+  <div class="sticky">
+   <span class="lbl">Tratamentos</span>
+   <h2 class="h2">O que cuidamos por aqui</h2>
+   <p>Lista de tratamentos divulgada pela própria clínica. Toque em cada um para saber mais e já mandar sua dúvida no WhatsApp.</p>
+  </div>
+  <div class="list">
+   <details open><summary><span class="n">01</span><span class="t">Lentes de contato dental</span><span class="pl">+</span></summary><div class="ans">Lâminas finas aplicadas sobre os dentes para ajustar cor e formato. A indicação depende de avaliação.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20lentes%20de%20contato%20dental." target="_blank" rel="noopener">Perguntar sobre lentes</a></div></details>
+   <details><summary><span class="n">02</span><span class="t">Implantes dentários</span><span class="pl">+</span></summary><div class="ans">Reposição de dentes perdidos com implantes. O planejamento é feito na avaliação.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20implantes." target="_blank" rel="noopener">Perguntar sobre implantes</a></div></details>
+   <details><summary><span class="n">03</span><span class="t">Estética</span><span class="pl">+</span></summary><div class="ans">Procedimentos para a estética do sorriso, como o clareamento.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20tratamentos%20est%C3%A9ticos." target="_blank" rel="noopener">Perguntar sobre estética</a></div></details>
+   <details><summary><span class="n">04</span><span class="t">Odontopediatria</span><span class="pl">+</span></summary><div class="ans">Atendimento para crianças, com calma e de um jeito lúdico.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20para%20meu%20filho(a)." target="_blank" rel="noopener">Agendar para uma criança</a></div></details>
+   <details><summary><span class="n">05</span><span class="t">Aparelhos ortodônticos e alinhadores</span><span class="pl">+</span></summary><div class="ans">Correção da posição dos dentes com aparelho ou alinhadores transparentes.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20aparelho%20e%20alinhadores." target="_blank" rel="noopener">Perguntar sobre alinhadores</a></div></details>
+   <details><summary><span class="n">06</span><span class="t">Gengivoplastia</span><span class="pl">+</span></summary><div class="ans">Ajuste do contorno da gengiva para equilibrar o sorriso.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20gengivoplastia." target="_blank" rel="noopener">Perguntar sobre gengivoplastia</a></div></details>
+   <details><summary><span class="n">07</span><span class="t">Cirurgias em geral</span><span class="pl">+</span></summary><div class="ans">Extrações, incluindo dentes do siso, e outras cirurgias orais.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20cirurgia%20%2F%20extra%C3%A7%C3%A3o." target="_blank" rel="noopener">Perguntar sobre cirurgias</a></div></details>
+   <details><summary><span class="n">08</span><span class="t">Tratamento de canal</span><span class="pl">+</span></summary><div class="ans">Tratamento da polpa do dente para salvar o dente natural.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20tratamento%20de%20canal." target="_blank" rel="noopener">Perguntar sobre canal</a></div></details>
+   <details><summary><span class="n">09</span><span class="t">Próteses</span><span class="pl">+</span></summary><div class="ans">Reabilitação com próteses fixas ou removíveis, conforme cada caso.<br><a href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20pr%C3%B3teses." target="_blank" rel="noopener">Perguntar sobre próteses</a></div></details>
+  </div>
+ </div>
+</section>
+
+<section id="pequenos" class="peq">
+ <div class="wrap grid">
+  <div>
+   <span class="lbl">Para os pequenos</span>
+   <h2 class="h2">Consulta sem choro é possível.</h2>
+   <ul><li>Atendimento lúdico e paciente</li><li>Ambiente adequado para crianças</li><li>Recepção acolhedora desde a chegada</li></ul>
+   <a class="btn gr" href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20para%20meu%20filho(a)." target="_blank" rel="noopener">Agendar para uma criança</a>
+  </div>
+  <figure><blockquote>“Ambiente lindo, organizado e adequado para crianças. As recepcionistas foram incriveis (...) Dr Bruna conquistou o Gael, e conseguiu um atendimento calmo, tranquilo e sem choro.”</blockquote><cite>Rayssa L · avaliação no Google · 21/10/2025</cite></figure>
+ </div>
+</section>
+
+<section id="equipe">
+ <div class="wrap">
+  <span class="lbl">Equipe</span>
+  <h2 class="h2">Quem cuida de você</h2>
+  <p style="color:#5d5a57;max-width:60ch">Nomes citados pelos pacientes nas avaliações. Especialidades, fotos e registros entram no site oficial com os dados da clínica.</p>
+  <div class="team">
+   <article class="member"><div class="ini">S</div><h3>Dra. Sabrina Durante da Silva</h3><p>Sócia-administradora da clínica. A mais citada nas avaliações pelo cuidado e pelas explicações claras.</p><span class="cro">CRO-SC: a confirmar</span></article>
+   <article class="member"><div class="ini">B</div><h3>Dra. Bruna</h3><p>Citada pelas famílias no atendimento às crianças.</p><span class="cro">CRO-SC: a confirmar</span></article>
+   <article class="member"><div class="ini">L</div><h3>Dr. Lourenço</h3><p>Citado por paciente em extração de siso.</p><span class="cro">CRO-SC: a confirmar</span></article>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap clin">
+  <figure><div class="arch"><img src="assets/totem-fachada-logo.jpg" alt="Totem grafite da clínica com o logo DURANTE em letras bronze"></div><figcaption>A identidade na entrada</figcaption></figure>
+  <figure><div class="arch"><img src="assets/consultorio.jpg" alt="Consultório com cadeira odontológica e TV no teto" style="object-position:center 30%"></div><figcaption>Consultório com TV no teto</figcaption></figure>
+  <figure><div class="arch"><img src="assets/fachada-predio.jpg" alt="Fachada do prédio da clínica na Rua Augusto Beduschi"></div><figcaption>Rua Augusto Beduschi, 232</figcaption></figure>
+ </div>
+</section>
+
+<section class="avs">
+ <div class="wrap">
+  <div class="head">
+   <div><span class="lbl">O que dizem os pacientes</span><h2 class="h2" style="color:var(--off)">Avaliações reais do Google</h2></div>
+   <div class="score"><b>4,9 ★</b><div style="font-size:.9rem">158 avaliações</div></div>
+  </div>
+  <div class="av-grid">
+   <figure><blockquote>“Desde a primeira consulta, me deixou muito confortável e explicou tudo com muita clareza, transmitindo segurança durante todo o tratamento.”</blockquote><figcaption>Gabriela Dos Santos · 20/06/2026 · sobre a Dra. Sabrina</figcaption></figure>
+   <figure><blockquote>“Equipe maravilhosa. Ambiente acolhedor, atendimento humanizado e lúdico para as crianças.”</blockquote><figcaption>Eduarda Gomes · 26/01/2026</figcaption></figure>
+   <figure><blockquote>“Aqui eu finalmente encontrei uma clínica que proporciona uma experiência acolhedora.”</blockquote><figcaption>Stephanie Sid · 19/06/2026</figcaption></figure>
+  </div>
+  <p class="resp">A clínica responde pessoalmente às avaliações no Google.</p>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <span class="lbl">Primeira consulta</span>
+  <h2 class="h2">Como funciona</h2>
+  <div class="steps">
+   <div class="step"><h3>Chame no WhatsApp</h3><p>Conte o que você procura e escolha o melhor horário.</p></div>
+   <div class="step"><h3>Avaliação</h3><p>Conversa, exame e explicação de cada opção, sem pressa.</p></div>
+   <div class="step"><h3>Plano de tratamento</h3><p>Você sai sabendo os próximos passos.</p></div>
+  </div>
+  <p class="sug">Texto sugerido para a demonstração: a clínica ajusta conforme o atendimento real.</p>
+ </div>
+</section>
+
+<section id="contato" class="ct" style="padding-top:0">
+ <div class="wrap grid">
+  <div>
+   <span class="lbl">Contato</span>
+   <h2 class="h2">Agende sua avaliação</h2>
+   <dl>
+    <dt>Endereço</dt><dd>Rua Augusto Beduschi, 232 · térreo, sala 01 · Centro · Gaspar/SC</dd>
+    <dt>WhatsApp</dt><dd>(47) 99292-1157</dd>
+    <dt>Horário</dt><dd>Segunda a sexta, a partir das 9h<br><small style="color:#8a857f">Horário de fechamento a confirmar (19h ou 19h30)</small></dd>
+    <dt>Instagram</dt><dd>@duranteodontologia</dd>
+   </dl>
+   <div style="display:flex;gap:.8rem;flex-wrap:wrap">
+    <a class="btn br" href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Durante%20Odontologia." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+    <a class="btn ol" href="https://www.google.com/maps?cid=3497734532468086501" target="_blank" rel="noopener">Ver no mapa</a>
+   </div>
+  </div>
+  <div class="arch"><img src="assets/recepcao-logo.jpg" alt="Recepção da clínica" style="object-position:30% center"></div>
+ </div>
+</section>
+</main>
+
+<footer><div class="wrap"><p>Silva e Silva Odontologia Ltda · CNPJ 42.010.055/0001-22 · Responsável técnico: a confirmar · CRO-SC: a confirmar</p><p>Demonstração feita pela WolfStudio. Não é o site oficial da Durante Odontologia. Fotos públicas do Google Maps, usadas só nesta demonstração.</p></div></footer>
+<a class="float" href="https://wa.me/5547992921157?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>Agendar</a>
+<script>
+/* Movimento (WolfStudio v3): revelar ao rolar, contadores e menu ativo. */
+(function(){
+  var R=document.documentElement; if(!R.classList.contains('anim')) return;
+  try{
+    var SEL='.trat .sticky,.list details,.peq .grid>*,.wrap>.lbl,.wrap>.h2,.member,.clin figure,.avs .head,.av-grid figure,.resp,.step,.sug,.ct .grid>*', CNT='.facts div:first-child b,.avs .score b';
+    var io=new IntersectionObserver(function(es){
+      var n=0;
+      es.forEach(function(e){
+        if(!e.isIntersecting) return;
+        var el=e.target; io.unobserve(el);
+        if(n) el.style.setProperty('--d',Math.min(n,7)*90+'ms');
+        n++; el.classList.add('in');
+        setTimeout(function(){el.style.removeProperty('--d')},1700);
+      });
+    },{threshold:.08,rootMargin:'0px 0px -5% 0px'});
+    var pend=[].slice.call(document.querySelectorAll(SEL));
+    pend.forEach(function(el){io.observe(el)});
+    /* rolagem rápida pode pular um bloco: o que já ficou para cima aparece sem esperar */
+    var tv=0;
+    function varre(){pend=pend.filter(function(el){
+      if(el.classList.contains('in')) return false;
+      if(el.getBoundingClientRect().bottom<0){io.unobserve(el);el.classList.add('in');return false}
+      return true;
+    })}
+
+    function conta(el){
+      var tn=null;
+      [].some.call(el.childNodes,function(c){if(c.nodeType===3&&/\d,\d/.test(c.nodeValue)){tn=c;return true}});
+      if(!tn) return;
+      var full=tn.nodeValue, m=full.match(/(\d+),(\d)/), alvo=parseFloat(m[1]+'.'+m[2]), t0=null;
+      function f(t){
+        if(!t0) t0=t;
+        var p=Math.min(1,(t-t0)/1100), v=alvo*(1-Math.pow(1-p,3));
+        tn.nodeValue=p<1?full.replace(m[0],v.toFixed(1).replace('.',',')):full;
+        if(p<1) requestAnimationFrame(f);
+      }
+      requestAnimationFrame(f);
+    }
+    var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){cio.unobserve(e.target);conta(e.target)}})},{threshold:.6});
+    [].forEach.call(document.querySelectorAll(CNT),function(el){cio.observe(el)});
+
+    var links=[].slice.call(document.querySelectorAll('nav a[href^="#"]')), mapa={};
+    var sio=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      links.forEach(function(a){a.classList.remove('on')}); mapa[e.target.id].classList.add('on');
+    })},{rootMargin:'-40% 0px -55% 0px'});
+    links.forEach(function(a){var s=document.getElementById(a.getAttribute('href').slice(1)); if(s&&s.id!=='conteudo'){mapa[s.id]=a;sio.observe(s)}});
+
+    var espera=false;
+    function rolar(){
+      espera=false; var y=window.scrollY||0;
+      R.classList.toggle('rolou',y>8);
+      clearTimeout(tv); if(pend.length) tv=setTimeout(varre,180);
+      if(y<160) links.forEach(function(a){a.classList.remove('on')});
+
+    }
+    window.addEventListener('scroll',function(){if(!espera){espera=true;requestAnimationFrame(rolar)}},{passive:true});
+    window.addEventListener('resize',rolar);
+    rolar();
+
+  }catch(err){R.classList.remove('anim')}
+})();
+</script>
+</body>
+</html>
